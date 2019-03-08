@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.neural_network import MLPClassifier
-mnist_train = pd.read_csv("csv/mnist_train.csv", header=None)
-mnist_test = pd.read_csv("csv/mnist_test.csv", header=None)
+mnist_train = pd.read_csv("mnist_train.csv", header=None)
+mnist_test = pd.read_csv("mnist_test.csv", header=None)
 cols = ["label"]
 
 for i in range(784):
